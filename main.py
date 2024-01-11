@@ -106,5 +106,6 @@ class Application(tk.Frame):
         self.game_over_msg['text']="GAME OVER!" if self.tetris.game_over else ""
 
 root = tk.Tk()
+root.title("Tetris")
 app = Application(master=root)
 app.mainloop()
